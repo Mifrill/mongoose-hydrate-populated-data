@@ -1,5 +1,9 @@
 # mongoose-hydrate-populated-data
 
+```
+npm i --save mongoose-hydrate-populated-data
+```
+
 State: model has relation with collection1 and collection2, like:
 ```ts
 import { model, Schema } from 'mongoose'
@@ -27,7 +31,7 @@ const mySchema: Schema<MyDocument> = new Schema({
 
 ```ts
 import { FilterQuery } from 'mongoose'
-import { populatingLookupPreserveNullQuery, populatingLookupQuery } from '.'
+import { populatingLookupPreserveNullQuery, populatingLookupQuery, hydratePopulated } from 'mongoose-hydrate-populated-data'
 
 const records = await model.aggregate([
   {

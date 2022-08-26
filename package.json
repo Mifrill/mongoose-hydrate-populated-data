@@ -1,6 +1,6 @@
 {
   "name": "mongoose-hydrate-populated-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Workaround for https://github.com/Automattic/mongoose/issues/4727",
   "main": "./index.js",
   "types": "./index.d.ts",
